@@ -6,6 +6,7 @@ This project originates from TOP (The Odin Project) and it's a basic landing pag
 ## Authors
 
 @notker0
+
 https://github.com/notker0
  
 ## Version History
