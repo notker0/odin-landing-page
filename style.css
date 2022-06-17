@@ -9,16 +9,22 @@ body {
 ul {
     display: flex;
     list-style: none;
-    gap: 8px;
+    gap: 24px;
     padding-inline-start: 0px;
 }
 
-a {
+a, a:visited {
     text-decoration: none;
+    color: #E5E7EB;
 }
 
 .hero, .infoboxes, .quote {
     flex: 1;
+}
+
+.header, .hero, .footer {
+    display: flex;
+    background-color: #1F2937;
 }
 
 .header, .footer {
@@ -26,18 +32,15 @@ a {
 }
 
 .header {
-    display: flex;
-    background-color: #1F2937;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
 }
 
 .footer {
-    display: flex;
-    background-color: #1F2937;
 }
 
 .hero {
-    display: flex;
-    background-color: #1F2937;
 }
 
 .infoboxes {
@@ -51,4 +54,15 @@ a {
 .signup {
     display: flex;
     flex: 0.8;
+}
+
+.logo {
+    font-size: 32px;
+    color: #F9FAF8;
+    font-weight: 700;
+}
+
+.header-links {
+    font-size: 18px;
+    color: #E5E7EB;
 }
