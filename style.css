@@ -4,20 +4,51 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-  }
-
-.header, .hero, .footer {
-    background-color: #1F2937;
-
 }
-.header, .footer {
-    height: 72px;
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 8px;
+    padding-inline-start: 0px;
+}
+
+a {
+    text-decoration: none;
 }
 
 .hero, .infoboxes, .quote {
     flex: 1;
 }
 
+.header, .footer {
+    height: 72px;
+}
+
+.header {
+    display: flex;
+    background-color: #1F2937;
+}
+
+.footer {
+    display: flex;
+    background-color: #1F2937;
+}
+
+.hero {
+    display: flex;
+    background-color: #1F2937;
+}
+
+.infoboxes {
+    display: flex;
+}
+
+.quote {
+    display: flex;
+}
+
 .signup {
+    display: flex;
     flex: 0.8;
 }
