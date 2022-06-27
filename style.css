@@ -79,3 +79,8 @@ a, a:visited {
     flex-direction: column;
 }
 
+#one {
+    height: auto;
+    width: 400px;
+}
+
