@@ -41,6 +41,9 @@ a, a:visited {
 }
 
 .hero {
+    align-items: center;
+    justify-content: space-around;
+    color: white;
 }
 
 .infoboxes {
@@ -66,3 +69,13 @@ a, a:visited {
     font-size: 18px;
     color: #E5E7EB;
 }
+
+.herotxt, .heroimg {
+    flex: 1;
+}
+
+.herotxt {
+    display: flex;
+    flex-direction: column;
+}
+
