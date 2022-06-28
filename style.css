@@ -23,7 +23,6 @@ a, a:visited {
 }
 
 .header, .hero, .footer {
-    display: flex;
     background-color: #1F2937;
 }
 
@@ -32,17 +31,19 @@ a, a:visited {
 }
 
 .header {
+    display: flex;
     align-items: center;
     justify-content: space-around;
     color: white;
 }
 
 .footer {
+    display: flex;
 }
 
 .hero {
+    display: flex;
     align-items: center;
-    justify-content: space-around;
     color: white;
 }
 
@@ -78,5 +79,6 @@ a, a:visited {
 .herotxt {
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
 }
 
