@@ -72,15 +72,11 @@ a, a:visited {
 
 .herotxt, .heroimg {
     flex: 1;
+    margin: 0px 30px
 }
 
 .herotxt {
     display: flex;
     flex-direction: column;
-}
-
-#one {
-    height: auto;
-    width: 400px;
 }
 
